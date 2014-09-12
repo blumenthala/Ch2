@@ -9,8 +9,10 @@ namespace Ch2
     {
         static void Main(string[] args)
         {
-            int length = 15, width = 25, area = length * width;
-            Console.WriteLine("The floor space is 375 square feet");
+            int length = 15;
+            int width = 25;
+            int area = length * width;
+            Console.WriteLine("The floor space is " + area);
         }
     }
 }

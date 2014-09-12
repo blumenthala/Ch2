@@ -9,8 +9,10 @@ namespace HoursAndMinutes.cs
     {
         static void Main(string[] args)
         {
-            int Minute = 100;
-            Console.WriteLine("minutes and hours is 1 hour and 40 minutes");
+            int minutes = 90;
+            int display1 = minutes / 60; 
+            int display2 = minutes % 60;
+            Console.WriteLine("In the total of 90 minutes, there are {0} hours and {1} minutes.", display1, display2);
         }
     }
 }

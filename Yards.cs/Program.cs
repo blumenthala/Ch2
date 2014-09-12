@@ -11,7 +11,9 @@ namespace Yards.cs
         {
             int length = 25, width = 42, area = length * width;
             double squareyard = (length * width) / 9;
-            Console.WriteLine("the cost in sqaure yards is 116.7");
+            double cost = 4.50;
+            double total = cost * squareyard;
+            Console.WriteLine("the cost per square yard is " + cost + ". In all, it would be " + total);
 
         }
     }
